@@ -1,0 +1,46 @@
+\documentclass[ngerman]{scrartcl}
+\usepackage{lmodern}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\setlength{\parskip}{\medskipamount}
+\setlength{\parindent}{0pt}
+\usepackage{babel}
+\usepackage{float}
+\usepackage{varioref}
+\usepackage[unicode=true,pdfusetitle,
+ bookmarks=true,bookmarksnumbered=false,bookmarksopen=false, breaklinks=false,pdfborder={0 0 0},backref=false,colorlinks=false] {hyperref}
+\usepackage{graphicx}
+\usepackage{setspace}
+% % % % % % % % % % % % % % % % % % % % %
+%LITERATUR
+%Fußnote _ODER_ Amerikanisch auskommentieren
+
+%Amerikanische In-Text-Zitierweise
+%\usepackage[backend=biber,style=authoryear,maxcitenames=1]{biblatex}\renewcommand{\cite}{\parencite}
+
+%Deutsches Fußnotensystem
+%\usepackage[backend=biber,style=authortitle-dw,firstfull,maxcitenames=1]{biblatex}\DeclareFieldFormat{title}{\mkbibemph{#1}}\DeclareFieldFormat{citetitle}{\mkbibemph{#1}}\renewcommand{\cite}{\footcite}
+
+%Ressource
+\addbibresource{/pfad/zur/.bib}
+% % % % % % % % % % % % % % % % % % % % %
+\begin{document}
+		\input{texes/metadaten.tex}
+		\input{texes/titlepage.tex}
+		\tableofcontents{}
+		\pagebreak{}
+
+
+
+\onehalfspacing
+\input{/pfad/zum/inhalt}
+
+
+
+
+
+
+		\printbibliography
+		
+		%\input{texes/eiderkl.tex}
+\end{document}
