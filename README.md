@@ -1,4 +1,4 @@
-Vorlage für Hausarbeiten an der Universität Potsdam von Martin Freidank (v.1.0)
+Vorlage für Hausarbeiten an der Universität Potsdam von Martin Freidank (v.1.0.1)
 ===============================================================================
     
 Anleitung
@@ -19,4 +19,5 @@ Nach Wunsch ist am Schluss des Dokuments die eidesstattliche Erklärung (eiderkl
 Changelog
 ---------
 1.0 - Erste Veröffentlichung
+
 1.0.1 - einige Pakete hinzugefügt, die hauptsächlich Optimierungsarbeiten im Hintergrund leisten (microtype, amsmath, cleveref), die Funktion aber nicht maßgeblich verändern
