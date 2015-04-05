@@ -10,7 +10,7 @@ Einfach die enstprechenden Daten in die jeweiligen Felder der Datei texes/metada
 
 ###Literaturverzeichnis###
 Im Hauptdokument main.tex _ENTWEDER_ Amerikanisch oder Deutsch entkommentieren ("%" am Beginn der Zeile löschen).
-Die bib-Quelldatei für das Literaturverzeichnis lässt sich in Zeile 25 einfügen.
+Die bib-Quelldatei für das Literaturverzeichnis lässt sich im entsprechenden Abschnitt einfügen.
 Als Prozessor für das Literaturverzeichnis ist Biber zu wählen.
 
 ###Eidesstattliche Erklärung###
@@ -19,5 +19,5 @@ Nach Wunsch ist am Schluss des Dokuments die eidesstattliche Erklärung (eiderkl
 Changelog
 ---------
 1.0 - Erste Veröffentlichung
-
 1.0.1 - einige Pakete hinzugefügt, die hauptsächlich Optimierungsarbeiten im Hintergrund leisten (microtype, amsmath, cleveref), die Funktion aber nicht maßgeblich verändern
+1.1 - Schriften
