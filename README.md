@@ -19,5 +19,7 @@ Nach Wunsch ist am Schluss des Dokuments die eidesstattliche Erklärung (eiderkl
 Changelog
 ---------
 1.0 - Erste Veröffentlichung
+
 1.0.1 - einige Pakete hinzugefügt, die hauptsächlich Optimierungsarbeiten im Hintergrund leisten (microtype, amsmath, cleveref), die Funktion aber nicht maßgeblich verändern
+
 1.1 - Support für einige Schriften hinzugefügt
