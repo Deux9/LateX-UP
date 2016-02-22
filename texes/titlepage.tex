@@ -1,22 +1,30 @@
 \begin{titlepage}
-\thispagestyle{empty}
-	\begin{flushleft} \large
-		\fak\\
-		\lehrstuhl\\
-		\lv \\
-		\semester \\
-		bei \lp \\[5cm]
-	\end{flushleft}
-	\begin{center}
-		{\Large \sc \arbtyp \\[1.5cm]}
-		{\Huge \bf \textsf{\titel} \\[1.5cm]}
-		{\Large{
-			\autorname\\
-			\href{mailto:\autormail}{\autormail}\\
-			Matr.Nr.: \autormatr}
-			\\\textsf{}}\\			
-		{\today}
-		\vfill
-		\includegraphics[width=2cm]{res/uni_potsdam_logo}\\ 
-	\end{center}
+\vspace*{4cm}
+\begin{tabu} to \textwidth {X[c]}
+	\toprule
+	\toprule[2pt]
+	\huge{\textsc{\titel}}\\
+	\Large{\textsc{\arbtyp}}\\
+	\bottomrule[2pt]
+	\bottomrule
+\end{tabu}
+\\[3cm]
+\centering{
+\textsc{\Large \autorname}
+}
+\\[3cm]
+\begin{tabu} {>{\itshape}X[r] X[1.5]}
+Fakultät & \fak\\
+Lehrstuhl & \lehrstuhl\\
+Lehrveranstaltung & \lv\\
+Semester & \semester\\
+Lehrperson & \lp \\
+Fachmentor & Markus Semmler\\
+\end{tabu}
+\vfill
+\includegraphics[width=2cm]{res/uni_potsdam_logo.pdf}
+
 \end{titlepage}
+
+\tableofcontents
+\begin{center}\autorname $\cdot$ \autormatr $\cdot$ \href{mailto:\autormail}{\autormail}\end{center}
